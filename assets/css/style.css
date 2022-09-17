@@ -1,0 +1,15 @@
+:root {
+    --vermelho-claro: #ff525d;
+    --vermelho-extra-claro: #ff7a85;
+    --azul-escuro: #1f3f5b;
+    --branco: #ffffff;
+    --azul-cinzento: #c8c8cb; /*texto do footer*/
+    --azul-cinzento-escuro: #4b5862;
+    --azul-extra-escuro: #25252d;
+    
+}
+
+body {
+    font-size: 16px;
+}
+

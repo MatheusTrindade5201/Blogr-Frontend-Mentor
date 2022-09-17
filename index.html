@@ -8,36 +8,58 @@
   
   <title>Frontend Mentor | [Blogr]</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
 <body>
-  Product
 
-  Overview
-  Pricing
-  Marketplace
-  Features
-  Integrations
+  <header class="cabecalho">
+    <span class="logo"></span>
+    <label for="botao__menu-hamburger">
+      <span class="icone-hamburger"></span>
+    </label>
+    <input type="checkbox" name="menu" id="botao__menu-hamburger">
+    <div class="menu-hamburger">
+      <nav class="mobile-menu">
+        <ul class="mobile-menu__lista">
+          <label for="product-selecao">
+            <li class="mobile-menu__item">Product</li>
+          </label>
+          <input type="checkbox" name="menu" id="product-selecao">
+          <ul class="mobile-menu__container-filho item-product">
+            <li class="mobile-menu__item-filho">Overview</li>
+            <li class="mobile-menu__item-filho">Pricing</li>
+            <li class="mobile-menu__item-filho">Marketplace</li>
+            <li class="mobile-menu__item-filho">Features</li>
+            <li class="mobile-menu__item-filho">Integrations</li>
+          </ul>
+          <label for="company-selecao">
+            <li class="mobile-menu__item">Company</li>
+          </label>
+          <input type="checkbox" name="menu" id="company-selecao">
+          <ul class="mobile-menu__container-filho item-company">
+            <li class="mobile-menu__item-filho">About</li>
+            <li class="mobile-menu__item-filho">Team</li>
+            <li class="mobile-menu__item-filho">Blog</li>
+            <li class="mobile-menu__item-filho">Careers</li>
+          </ul>
+          <label for="connect-selecao">
+            <li class="mobile-menu__item">Connect</li>
+          </label>
+          <input type="checkbox" name="menu" id="connect-selecao">
+          <ul class="mobile-menu__container-filho item-connect">
+            <li class="mobile-menu__item-filho">Contact</li>
+            <li class="mobile-menu__item-filho">Newsletter</li>
+            <li class="mobile-menu__item-filho">LinkedIn</li>
+          </ul>
+        </ul>
+      </nav>
+      <div class="credenciais">
+        <a href="#" class="login">Login</a>
+        <a href="#" class="sign-up">sign-up</a>
+      </div>
+    </div>
 
-  Company
-
-  About
-  Team
-  Blog
-  Careers
-
-  Connect
-
-  Contact
-  Newsletter
-  LinkedIn
-  
-  Login
-  Sign Up
+  </header>
+  <!-- Product
 
   A modern publishing platform
   Grow your audience and build your online brand
@@ -89,11 +111,11 @@
   
   Contact
   Newsletter
-  LinkedIn
+  LinkedIn -->
 
-  <div class="attribution">
+  <!-- <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Your Name Here</a>.
-  </div>
+  </div> -->
 </body>
 </html>
